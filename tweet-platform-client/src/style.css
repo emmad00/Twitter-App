@@ -1,0 +1,46 @@
+/* src/styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff;            /* Light text color */
+}
+
+h1, h2, h3 {
+    color: #00ffcc;            /* Accent color for headings */
+}
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.login-button {
+    background-color: #00ffcc; /* Accent color for buttons */
+    color: #000;               /* Dark text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-card {
+    background: #1f1f1f;       /* Slightly lighter background for cards */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;              /* Fixed width for task cards */
+}
+
+.task-button {
+    background-color: #00cc66; /* Green color for task buttons */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
